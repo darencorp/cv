@@ -1,0 +1,27 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My CV page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darencorp/cv.git"
+  },
+  "keywords": [
+    "CV",
+    "python",
+    "flask"
+  ],
+  "author": "Nazariy Mandebura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darencorp/cv/issues"
+  },
+  "homepage": "https://github.com/darencorp/cv#readme",
+  "dependencies": {
+    "uikit": "^3.0.3"
+  }
+}
