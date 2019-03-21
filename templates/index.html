@@ -2,10 +2,17 @@
 
 <%block name="root">
     <div uk-height-viewport="offset-bottom: 10"
-         class="uk-width-1-1 uk-background-cover uk-light uk-flex uk-background-bottom-center"
+         class="uk-width-1-1 uk-background-cover uk-light uk-flex uk-background-bottom-center uk-flex-middle uk-flex-center"
          style="background-image: url(/static/img/head_background.jpg);"
-         uk-parallax="bgy: -500">
+         uk-parallax="bgy: -300">
+        <div class="uk-flex uk-flex-column uk-flex-middle">
+            <div class="uk-blend-luminosity uk-background-cover uk-background-top-center" style="background-image: url(/static/img/avatar.jpg); width: 275px; height: 275px; border-radius: 100%">
+            </div>
+            <B class="uk-h1 uk-text-bold">Nazariy Mandebura</B>
+            <p class="uk-text-large uk-text-bold">Programmer form Ukraine</p>
+        </div>
+
     </div>
-    <div>
+    <div uk-height-viewport="offset-bottom: -10" style="background-color:  rgb(236, 189, 141)">
     </div>
 </%block>
